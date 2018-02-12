@@ -9,3 +9,11 @@ total = item1 + \
 		item3
 		
 print('The total price is : ', total)
+
+print('Also not that in the context of print() and strings')
+print("There is no difference between double quotes")
+print('and single quotes\n')
+
+print("""There is something 
+	called triple quote though.
+	And its used to print stuff on multiple line. """)
