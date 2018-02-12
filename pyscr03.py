@@ -17,3 +17,10 @@ print('and single quotes\n')
 print("""There is something 
 	called triple quote though.
 	And its used to print stuff on multiple line. """)
+	
+#Also, statements contained withing [], {} and () does not need a line continuation character
+#For Example :
+days = ['Mon', 'Tue', 'Wed', 
+		'Thu', 'Fri', 'Sat',
+		'Sun']
+print('Days for the week are : ', days)
